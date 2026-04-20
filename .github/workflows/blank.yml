@@ -65,4 +65,4 @@ jobs:
           Build run: ${{ github.run_number }}
           Source image: ${{ github.event.inputs.IMG_URL }}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: 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
